@@ -1,0 +1,26 @@
+.tab-container {
+    margin: 1rem;
+}
+
+.tab-button {
+    padding: 10px 20px;
+    background-color: #ffff;
+    border: none;
+}
+
+.tab-button.active {
+    color: #0000ff;
+    border-bottom: 1px solid #0000ff;
+}
+
+.tab-contents {
+    margin: 1rem;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
